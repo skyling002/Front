@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import LoginPage from '@/views/Login.vue'
+import LoginSwitch from '@/views/LoginSwitch.vue'
 
 Vue.use(VueRouter)
 
@@ -11,8 +12,8 @@ const routes = [
   },
   {
     path: '/login',
-    name: 'LoginPage',
-    component: LoginPage
+    name: 'LoginSwitch',
+    component: LoginSwitch
   }
 ]
 

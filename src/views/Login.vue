@@ -231,8 +231,25 @@ input:focus {
 .remember-me {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 4px;
   color: #86868b;
+  cursor: pointer;
+}
+
+.remember-me input[type="checkbox"] {
+  width: auto;
+  margin: 0;
+  position: relative;
+  top: 1px;
+  vertical-align: middle;
+  height: 16px;
+  accent-color: #0066cc;
+}
+
+.remember-me span {
+  display: inline;
+  white-space: nowrap;
+  font-size: 14px;
 }
 
 .forgot-link, .back-link {
